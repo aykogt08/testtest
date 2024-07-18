@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-18T07:40:02.455Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="Pe8ccWIEz3zts_dU6oFp" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-18T08:21:19.324Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="aOgqoG-CoTemHI5BIJSw" version="24.7.1" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1149" dy="1484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="27" value="yes" style="text;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="230" y="401" width="40" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="40" value="end" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+        <mxCell id="40" value="終了" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="1211" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="50" value="no" style="text;fontColor=#001933;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
@@ -51,7 +51,7 @@
         <mxCell id="OooI_02icTrnS9_GfsLI-59" value="ファイル添付有" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="390" width="119" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-60" value="【Functions】&lt;div&gt;回答の生成&lt;/div&gt;" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="OooI_02icTrnS9_GfsLI-60" value="【Functions】&lt;div&gt;回答を生成&lt;/div&gt;" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="687" width="150" height="81" as="geometry" />
         </mxCell>
         <mxCell id="OooI_02icTrnS9_GfsLI-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.508;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OooI_02icTrnS9_GfsLI-59" target="OooI_02icTrnS9_GfsLI-60">
@@ -90,7 +90,7 @@
         <mxCell id="OooI_02icTrnS9_GfsLI-72" value="【CosmosDB】&lt;div&gt;過去履歴の取得&lt;/div&gt;" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="420.5" y="587" width="150" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-75" value="【OpenAI】&lt;div&gt;回答の生成&lt;/div&gt;" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="OooI_02icTrnS9_GfsLI-75" value="【OpenAI】&lt;div&gt;回答を生成&lt;/div&gt;" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="420.5" y="687" width="150" height="81" as="geometry" />
         </mxCell>
         <mxCell id="OooI_02icTrnS9_GfsLI-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OooI_02icTrnS9_GfsLI-72" target="OooI_02icTrnS9_GfsLI-75">
