@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-18T08:46:49.346Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="irKD7PdC_gRFwSONi_gE" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" version="24.7.4">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="2318" dy="1484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2120" dy="1370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,7 +23,7 @@
           <mxGeometry x="230" y="401" width="40" height="26" as="geometry" />
         </mxCell>
         <mxCell id="40" value="終了" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="259.5" y="1344" width="120" height="30" as="geometry" />
+          <mxGeometry x="260.5" y="1200" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="50" value="no" style="text;fontColor=#001933;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="329" y="450" width="40" height="26" as="geometry" />
@@ -31,10 +31,10 @@
         <mxCell id="51" value="【CosmosDB】&lt;br&gt;新規セッションの作成" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="-10" y="376" width="150" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-56" value="クリアコマンド" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="OooI_02icTrnS9_GfsLI-56" value="クリアコマンド" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="290" width="119" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OooI_02icTrnS9_GfsLI-56" target="51">
+        <mxCell id="OooI_02icTrnS9_GfsLI-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OooI_02icTrnS9_GfsLI-56" target="51" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120" y="350" as="targetPoint" />
             <Array as="points">
@@ -42,164 +42,164 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-59" value="ファイル添付有" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="OooI_02icTrnS9_GfsLI-59" value="ファイル添付有" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="390" width="119" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-60" value="【Functions】&lt;div&gt;回答を生成&lt;/div&gt;" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="91" y="840" width="150" height="81" as="geometry" />
+        <mxCell id="OooI_02icTrnS9_GfsLI-60" value="【Functions】&lt;div&gt;回答を生成&lt;/div&gt;" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="91" y="730" width="150" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OooI_02icTrnS9_GfsLI-59" target="OooI_02icTrnS9_GfsLI-60">
+        <mxCell id="OooI_02icTrnS9_GfsLI-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OooI_02icTrnS9_GfsLI-59" target="OooI_02icTrnS9_GfsLI-60" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="166" y="424" />
-              <mxPoint x="166" y="557" />
+              <mxPoint x="166" y="423" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-67" value="yes" style="text;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="380" y="495" width="40" height="26" as="geometry" />
+        <mxCell id="OooI_02icTrnS9_GfsLI-67" value="yes" style="text;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="380.5" y="510" width="40" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-68" value="no" style="text;fontColor=#001933;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="OooI_02icTrnS9_GfsLI-68" value="no" style="text;fontColor=#001933;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="230" y="510" width="40" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-69" value="過去履歴有" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="OooI_02icTrnS9_GfsLI-69" value="過去履歴有" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="500" width="119" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OooI_02icTrnS9_GfsLI-69" target="OooI_02icTrnS9_GfsLI-72">
+        <mxCell id="OooI_02icTrnS9_GfsLI-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OooI_02icTrnS9_GfsLI-69" target="OooI_02icTrnS9_GfsLI-72" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="760" y="590" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="496" y="534" />
+              <mxPoint x="456" y="534" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-72" value="【CosmosDB】&lt;div&gt;過去履歴を取得&lt;/div&gt;" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420.5" y="550" width="150" height="81" as="geometry" />
+        <mxCell id="OooI_02icTrnS9_GfsLI-72" value="【CosmosDB】&lt;div&gt;過去履歴を取得&lt;/div&gt;" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380.5" y="550" width="150" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-75" value="【OpenAI】&lt;div&gt;回答を生成&lt;/div&gt;" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="840" width="150" height="81" as="geometry" />
+        <mxCell id="OooI_02icTrnS9_GfsLI-75" value="【OpenAI】&lt;div&gt;回答を生成&lt;/div&gt;" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="445.5" y="730" width="150" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OooI_02icTrnS9_GfsLI-77" target="OooI_02icTrnS9_GfsLI-79">
+        <mxCell id="OooI_02icTrnS9_GfsLI-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OooI_02icTrnS9_GfsLI-77" target="OooI_02icTrnS9_GfsLI-79" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-77" value="回答を整形" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="940" width="159" height="80" as="geometry" />
+        <mxCell id="OooI_02icTrnS9_GfsLI-77" value="回答を整形" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="827" width="159" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-79" value="【CosmosDB】&lt;div&gt;チャットログを保存&lt;/div&gt;" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="1070" width="150" height="81" as="geometry" />
+        <mxCell id="OooI_02icTrnS9_GfsLI-79" value="【CosmosDB】&lt;div&gt;チャットログを保存&lt;/div&gt;" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420.5" y="950" width="150" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-81" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;メッセージを&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;画面に表示&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="1203" width="159" height="80" as="geometry" />
+        <mxCell id="OooI_02icTrnS9_GfsLI-81" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;メッセージを&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;画面に表示&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="241" y="1080" width="159" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OooI_02icTrnS9_GfsLI-79" target="OooI_02icTrnS9_GfsLI-81">
+        <mxCell id="OooI_02icTrnS9_GfsLI-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OooI_02icTrnS9_GfsLI-79" target="OooI_02icTrnS9_GfsLI-81" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="494.5" y="1163" />
-              <mxPoint x="319.5" y="1163" />
+              <mxPoint x="496" y="1050" />
+              <mxPoint x="320" y="1050" />
+              <mxPoint x="320" y="1070" />
+              <mxPoint x="320" y="1070" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OooI_02icTrnS9_GfsLI-81" target="40">
+        <mxCell id="OooI_02icTrnS9_GfsLI-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OooI_02icTrnS9_GfsLI-81" target="40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.095;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="51" target="OooI_02icTrnS9_GfsLI-81">
+        <mxCell id="OooI_02icTrnS9_GfsLI-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.095;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="51" target="OooI_02icTrnS9_GfsLI-81" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="1220" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="65" y="1240" />
-              <mxPoint x="255" y="1240" />
+              <mxPoint x="65" y="1120" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-89" value="yes" style="text;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="OooI_02icTrnS9_GfsLI-89" value="yes" style="text;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="391" y="-20" width="40" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-90" value="回答中" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="OooI_02icTrnS9_GfsLI-90" value="回答中" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="260.5" y="-20" width="119" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.905;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OooI_02icTrnS9_GfsLI-90" target="OooI_02icTrnS9_GfsLI-81">
+        <mxCell id="OooI_02icTrnS9_GfsLI-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.01;entryY=0.427;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OooI_02icTrnS9_GfsLI-90" target="OooI_02icTrnS9_GfsLI-79" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="1080" as="targetPoint" />
+            <mxPoint x="761" y="1102.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="611" y="14" />
-              <mxPoint x="611" y="1243" />
+              <mxPoint x="640" y="13" />
+              <mxPoint x="640" y="985" />
             </Array>
+            <mxPoint x="570.5" y="6" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="OooI_02icTrnS9_GfsLI-90">
+        <mxCell id="OooI_02icTrnS9_GfsLI-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="OooI_02icTrnS9_GfsLI-90" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-96" value="no" style="text;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;align=center;" vertex="1" parent="1">
+        <mxCell id="OooI_02icTrnS9_GfsLI-96" value="no" style="text;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;align=center;" parent="1" vertex="1">
           <mxGeometry x="321" y="41.5" width="40" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-97" value="メールアドレス&lt;div&gt;および&lt;span style=&quot;background-color: initial;&quot;&gt;会話IDを取得&lt;/span&gt;&lt;/div&gt;" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="OooI_02icTrnS9_GfsLI-97" value="メールアドレス&lt;div&gt;および&lt;span style=&quot;background-color: initial;&quot;&gt;会話IDを取得&lt;/span&gt;&lt;/div&gt;" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="240.5" y="80" width="159" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OooI_02icTrnS9_GfsLI-90" target="OooI_02icTrnS9_GfsLI-97">
+        <mxCell id="OooI_02icTrnS9_GfsLI-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OooI_02icTrnS9_GfsLI-90" target="OooI_02icTrnS9_GfsLI-97" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OooI_02icTrnS9_GfsLI-102" target="OooI_02icTrnS9_GfsLI-56">
+        <mxCell id="OooI_02icTrnS9_GfsLI-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="OooI_02icTrnS9_GfsLI-102" target="OooI_02icTrnS9_GfsLI-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-102" value="質問がNull/空白" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="OooI_02icTrnS9_GfsLI-102" value="質問がNull/空白" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="260.5" y="190" width="119" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OooI_02icTrnS9_GfsLI-97" target="OooI_02icTrnS9_GfsLI-102">
+        <mxCell id="OooI_02icTrnS9_GfsLI-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OooI_02icTrnS9_GfsLI-97" target="OooI_02icTrnS9_GfsLI-102" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-104" value="yes" style="text;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="OooI_02icTrnS9_GfsLI-104" value="yes" style="text;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="380.5" y="190" width="40" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.905;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OooI_02icTrnS9_GfsLI-102" target="OooI_02icTrnS9_GfsLI-81">
+        <mxCell id="OooI_02icTrnS9_GfsLI-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.905;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="OooI_02icTrnS9_GfsLI-102" target="OooI_02icTrnS9_GfsLI-81" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="610" y="224" />
-              <mxPoint x="610" y="1243" />
+              <mxPoint x="610" y="1120" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-107" value="no" style="text;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;align=center;" vertex="1" parent="1">
+        <mxCell id="OooI_02icTrnS9_GfsLI-107" value="no" style="text;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;align=center;" parent="1" vertex="1">
           <mxGeometry x="321" y="250" width="40" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-108" value="過去履歴調整" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="241" y="620" width="159" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OooI_02icTrnS9_GfsLI-59" target="OooI_02icTrnS9_GfsLI-69">
+        <mxCell id="OooI_02icTrnS9_GfsLI-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OooI_02icTrnS9_GfsLI-59" target="OooI_02icTrnS9_GfsLI-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-112" value="質問する" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="241" y="730" width="159" height="80" as="geometry" />
+        <mxCell id="OooI_02icTrnS9_GfsLI-112" value="質問する" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="241" y="640" width="159" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OooI_02icTrnS9_GfsLI-108" target="OooI_02icTrnS9_GfsLI-112">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.095;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OooI_02icTrnS9_GfsLI-69" target="OooI_02icTrnS9_GfsLI-112">
+        <mxCell id="OooI_02icTrnS9_GfsLI-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.095;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OooI_02icTrnS9_GfsLI-69" target="OooI_02icTrnS9_GfsLI-112" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="230" y="534" />
-              <mxPoint x="230" y="770" />
+              <mxPoint x="230" y="533" />
+              <mxPoint x="230" y="680" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.905;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OooI_02icTrnS9_GfsLI-112" target="OooI_02icTrnS9_GfsLI-75">
+        <mxCell id="OooI_02icTrnS9_GfsLI-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.905;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="OooI_02icTrnS9_GfsLI-112" target="OooI_02icTrnS9_GfsLI-75" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.905;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OooI_02icTrnS9_GfsLI-75" target="OooI_02icTrnS9_GfsLI-77">
+        <mxCell id="OooI_02icTrnS9_GfsLI-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.905;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OooI_02icTrnS9_GfsLI-75" target="OooI_02icTrnS9_GfsLI-77" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="525" y="980" />
+              <mxPoint x="521" y="867" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.095;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OooI_02icTrnS9_GfsLI-60" target="OooI_02icTrnS9_GfsLI-77">
+        <mxCell id="OooI_02icTrnS9_GfsLI-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.095;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OooI_02icTrnS9_GfsLI-60" target="OooI_02icTrnS9_GfsLI-77" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="166" y="980" />
+              <mxPoint x="161" y="867" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OooI_02icTrnS9_GfsLI-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OooI_02icTrnS9_GfsLI-72" target="OooI_02icTrnS9_GfsLI-108">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="OooI_02icTrnS9_GfsLI-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OooI_02icTrnS9_GfsLI-72" target="OooI_02icTrnS9_GfsLI-112" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="321" y="600" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
